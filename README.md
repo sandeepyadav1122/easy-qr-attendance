@@ -1,69 +1,92 @@
-# Welcome to your Lovable project
 
-## Project info
+# EasyQR Attendance System
 
-**URL**: https://lovable.dev/projects/e05b6f44-de82-41eb-b865-b41b334cd1b2
+A modern, QR code-based attendance tracking solution for educational institutions and organizations.
 
-## How can I edit this code?
+![EasyQR Preview](public/og-image.png)
 
-There are several ways of editing your application.
+## 🚀 Overview
 
-**Use Lovable**
+EasyQR is a web application that transforms traditional attendance tracking into a quick, efficient, and tamper-proof process. No more time-consuming roll calls - create QR codes in seconds, let students scan, and instantly record attendance with detailed analytics.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e05b6f44-de82-41eb-b865-b41b334cd1b2) and start prompting.
+## ✨ Key Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Quick QR Generation**: Create unique QR codes for each class session in seconds
+- **Mobile-Friendly Scanning**: Students scan codes with their phones to instantly mark attendance
+- **Anti-Cheating Measures**: QR codes expire after a short time, and students must be physically present
+- **Detailed Analytics**: Access comprehensive attendance data with visual charts and insights
+- **Export Options**: Download records as Excel or PDF files for easy record-keeping
+- **Schedule Classes**: Set up recurring classes with automatic QR code generation
+- **User Management**: Efficiently manage teachers, students, and administrators
+- **Real-Time Updates**: See who's present as students scan the attendance QR code
+- **Attendance History**: Students can check their attendance history for all classes
 
-**Use your preferred IDE**
+## 🛠️ Technology Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend**: React, TypeScript, Vite
+- **UI Components**: Tailwind CSS, shadcn/ui
+- **Data Handling**: TanStack Query (React Query)
+- **Routing**: React Router
+- **Charts & Visualization**: Recharts
+- **Icons**: Lucide React
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🏗️ Project Structure
 
-Follow these steps:
+- **src/pages**: Main application pages
+- **src/components**: Reusable UI components
+- **src/components/ui**: shadcn UI components
+- **src/components/layout**: Layout components (Navbar, Footer)
+- **src/components/home**: Home page specific components
+- **src/lib**: Utility functions and helpers
+- **src/hooks**: Custom React hooks
+
+## 📋 Use Cases
+
+### For Educators
+- Quickly take attendance without disrupting class time
+- Monitor attendance patterns to identify at-risk students
+- Generate accurate reports for administrative requirements
+- Reduce administrative overhead and paperwork
+
+### For Students
+- Mark attendance with a simple scan - no waiting for roll call
+- Check personal attendance history and statistics
+- Receive immediate confirmation of successful attendance
+
+### For Administrators
+- Access comprehensive attendance data across all courses
+- Generate detailed reports (daily, weekly, monthly)
+- Manage faculty and student accounts efficiently
+
+## 🚀 Getting Started
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone https://github.com/your-username/easyqr-attendance.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd easyqr-attendance
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🤝 Contributing
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Contributions are welcome and appreciated! Here's how you can contribute:
 
-**Use GitHub Codespaces**
+1. **Fork the Repository**: Start by forking the repository to your GitHub account
+2. **Create a Branch**: Create a new branch for your feature or bug fix
+3. **Make Changes**: Implement your changes, following the project's code style
+4. **Test**: Ensure your changes work as expected and don't break existing functionality
+5. **Submit a Pull Request**: Open a PR with a clear description of your changes
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+We look forward to your contributions, whether it's code improvements, documentation updates, or bug reports!
 
-## What technologies are used for this project?
+## 📝 License
 
-This project is built with .
+This project is open source and available under the MIT License.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e05b6f44-de82-41eb-b865-b41b334cd1b2) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
