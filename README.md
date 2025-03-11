@@ -3,7 +3,7 @@
 
 A modern, QR code-based attendance tracking solution for educational institutions and organizations.
 
-![QR Attendance System Preview](public/og-image.png)
+![Image](https://github.com/user-attachments/assets/51e87147-5ac3-42fb-827c-f1a4e2cda270)
 
 ## 🚀 Overview
 
@@ -62,7 +62,7 @@ QR Attendance System is a web application that transforms traditional attendance
 
 ```sh
 # Clone the repository
-git clone https://github.com/your-username/qr-attendance-system.git
+git clone https://github.com/sandeepyadav1122/qr-attendance-system.git
 
 # Navigate to the project directory
 cd qr-attendance-system
