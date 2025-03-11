@@ -50,8 +50,8 @@ const Navbar = () => {
             className="flex items-center space-x-2 text-primary font-bold text-xl"
           >
             <QrCode className="h-6 w-6" />
-            <span className="hidden sm:inline-block">EasyQR Attendance</span>
-            <span className="sm:hidden">EasyQR</span>
+            <span className="hidden sm:inline-block">QR Attendance System</span>
+            <span className="sm:hidden">QR Attendance</span>
           </Link>
 
           {/* Desktop Navigation */}

@@ -12,7 +12,7 @@ const Footer = () => {
         <div>
           <Link to="/" className="flex items-center space-x-2 text-primary font-bold text-xl mb-4">
             <QrCode className="h-6 w-6" />
-            <span>EasyQR Attendance</span>
+            <span>QR Attendance System</span>
           </Link>
           <p className="text-muted-foreground">
             Simplify attendance tracking with our modern QR code-based system.
@@ -69,8 +69,8 @@ const Footer = () => {
           </div>
           <p className="text-muted-foreground text-sm">
             Have questions or feedback? <br />
-            <a href="mailto:contact@easyqr.com" className="text-primary hover:underline">
-              contact@easyqr.com
+            <a href="mailto:contact@qrattendance.com" className="text-primary hover:underline">
+              contact@qrattendance.com
             </a>
           </p>
         </div>
@@ -79,7 +79,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 mt-8 pt-8 border-t border-border">
         <div className="flex flex-col sm:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            &copy; {currentYear} EasyQR Attendance. All rights reserved.
+            &copy; {currentYear} QR Attendance System. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm flex items-center mt-2 sm:mt-0">
             Made with <Heart className="h-4 w-4 mx-1 text-red-500" /> for education

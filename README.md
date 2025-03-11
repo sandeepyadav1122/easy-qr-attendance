@@ -1,13 +1,13 @@
 
-# EasyQR Attendance System
+# QR Attendance System
 
 A modern, QR code-based attendance tracking solution for educational institutions and organizations.
 
-![EasyQR Preview](public/og-image.png)
+![QR Attendance System Preview](public/og-image.png)
 
 ## 🚀 Overview
 
-EasyQR is a web application that transforms traditional attendance tracking into a quick, efficient, and tamper-proof process. No more time-consuming roll calls - create QR codes in seconds, let students scan, and instantly record attendance with detailed analytics.
+QR Attendance System is a web application that transforms traditional attendance tracking into a quick, efficient, and tamper-proof process. No more time-consuming roll calls - create QR codes in seconds, let students scan, and instantly record attendance with detailed analytics.
 
 ## ✨ Key Features
 
@@ -62,10 +62,10 @@ EasyQR is a web application that transforms traditional attendance tracking into
 
 ```sh
 # Clone the repository
-git clone https://github.com/your-username/easyqr-attendance.git
+git clone https://github.com/your-username/qr-attendance-system.git
 
 # Navigate to the project directory
-cd easyqr-attendance
+cd qr-attendance-system
 
 # Install dependencies
 npm install
@@ -89,4 +89,3 @@ We look forward to your contributions, whether it's code improvements, documenta
 ## 📝 License
 
 This project is open source and available under the MIT License.
-
